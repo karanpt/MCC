@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">About Us</string>
+    <string name="tests">Tests</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="basics_of_android">Basics of Android</string>
+    <string name="title_activity_basic">Hello Android</string>
+    <string name="to_install_android_studio">To install Android Studio on Windows, proceed as follows: 1. Download it from https://developer.android.com/studio/index.html 2.Launch the .exe file you downloaded 3.Follow the setup wizard to install Android Studio and any necessary SDK tools.</string>
+    <string name="download_and_install_android_studio">Download and Install Android Studio</string>
+    <string name="create_an_android_project">Create an Android Project</string>
+    <string name="_1_in_the_welcome_to_android__processing_android_studio_opens_the_ide"><![CDATA[1.In the Welcome to Android Studio window, click Start a new Android Studio project.Or if you have a project opened, select File > New Project. 2.In the Create New Project window, enter the following values: Application Name: My First App Company Domain: example.com You might want to change the project location. Also, if you want to write a Kotlin app, check the Include Kotlin support checkbox. Leave the other options as they are. 3.Click Next. 4.In the Target Android Devices screen, keep the default values and click Next. 5.In the Add an Activity to Mobile screen, select Empty Activity and click Next. 6.In the Configure Activity screen, keep the default values and click Finish. After some processing, Android Studio opens the IDE.]]></string>
+    <string name="now_take_a_moment_to_review__file_see_configure_your_build"><![CDATA[Now take a moment to review the most important files. First, be sure the Project window is open (select View > Tool Windows > Project) and the Android view is selected from the drop-down list at the top of that window. You can then see the following files: app > java > com.example.myfirstapp > MainActivity This is the main activity (the entry point for your app). When you build and run the app, the system launches an instance of this Activity and loads its layout. app > res > layout > activity_main.xml This XML file defines the layout for the activity\'s UI. It contains a TextView element with the text \"Hello world!\". app > manifests > AndroidManifest.xml The manifest file describes the fundamental characteristics of the app and defines each of its components. Gradle Scripts > build.gradle You\'ll see two files with this name: one for the project and one for the \"app\" module. Each module has its own build.gradle file, but this project currently has just one module. You\'ll mostly work with the module\'s build.gradle file to configure how the Gradle tools compile and build your app. For more information about this file, see Configure Your Build.]]></string>
+    <string name="run_your_app">Run Your App</string>
+    <string name="run_on_a_real_device">Run on a real device</string>
+    <string name="set_up_your_device_as_follows">Set up your device as follows:</string>
+    <string name="run_on_an_emulator">Run on an emulator</string>
+    <string name="run_the_app_on_an_emulator_the_emulator"><![CDATA[Run the app on an emulator as follows: 1.In Android Studio, click the app module in the Project window and then select Run > Run (or click Run in the toolbar). 2.In the Select Deployment Target window, click Create New Virtual Device. 3.In the Select Hardware screen, select a phone device, such as Pixel, and then click Next. 4.In the System Image screen, select the version with the highest API level. If you don\'t have that version installed, a Download link is shown, so click that and complete the download. 5.Click Next. 6.On the Android Virtual Device (AVD) screen, leave all the settings alone and click Finish. 7.Back in the Select Deployment Target dialog, select the device you just created and click OK. Android Studio installs the app on the emulator and starts it. You should now see \"Hello World!\" displayed in the app running on the emulator.]]></string>
+    <string name="congratulations_on_making_your_first_app">Congratulations on making your first App!!</string>
+
+</resources>
